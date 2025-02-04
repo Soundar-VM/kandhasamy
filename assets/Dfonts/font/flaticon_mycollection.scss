@@ -1,0 +1,45 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.woff2?95a10d49514f5572d173ad1a4a13dccf") format("woff2"),
+url("./flaticon_mycollection.woff?95a10d49514f5572d173ad1a4a13dccf") format("woff"),
+url("./flaticon_mycollection.eot?95a10d49514f5572d173ad1a4a13dccf#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.ttf?95a10d49514f5572d173ad1a4a13dccf") format("truetype"),
+url("./flaticon_mycollection.svg?95a10d49514f5572d173ad1a4a13dccf#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "livingroom": "\f101",
+    "home": "\f102",
+    "security-helmet": "\f103",
+    "renovation": "\f104",
+    "compass": "\f105",
+);
+
+.flaticon-livingroom:before {
+    content: map-get($flaticon_mycollection-map, "livingroom");
+}
+.flaticon-home:before {
+    content: map-get($flaticon_mycollection-map, "home");
+}
+.flaticon-security-helmet:before {
+    content: map-get($flaticon_mycollection-map, "security-helmet");
+}
+.flaticon-renovation:before {
+    content: map-get($flaticon_mycollection-map, "renovation");
+}
+.flaticon-compass:before {
+    content: map-get($flaticon_mycollection-map, "compass");
+}

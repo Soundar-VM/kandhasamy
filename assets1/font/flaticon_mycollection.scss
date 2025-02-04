@@ -1,0 +1,49 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.woff2?44b76ddc460ffc24b7eed92b69630084") format("woff2"),
+url("./flaticon_mycollection.woff?44b76ddc460ffc24b7eed92b69630084") format("woff"),
+url("./flaticon_mycollection.eot?44b76ddc460ffc24b7eed92b69630084#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.ttf?44b76ddc460ffc24b7eed92b69630084") format("truetype"),
+url("./flaticon_mycollection.svg?44b76ddc460ffc24b7eed92b69630084#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "done": "\f101",
+    "prestige": "\f102",
+    "customisation": "\f103",
+    "businessman": "\f104",
+    "express-delivery": "\f105",
+    "enterprise": "\f106",
+);
+
+.flaticon-done:before {
+    content: map-get($flaticon_mycollection-map, "done");
+}
+.flaticon-prestige:before {
+    content: map-get($flaticon_mycollection-map, "prestige");
+}
+.flaticon-customisation:before {
+    content: map-get($flaticon_mycollection-map, "customisation");
+}
+.flaticon-businessman:before {
+    content: map-get($flaticon_mycollection-map, "businessman");
+}
+.flaticon-express-delivery:before {
+    content: map-get($flaticon_mycollection-map, "express-delivery");
+}
+.flaticon-enterprise:before {
+    content: map-get($flaticon_mycollection-map, "enterprise");
+}

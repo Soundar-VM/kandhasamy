@@ -1,0 +1,47 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_mycollection";
+    src: url("./flaticon_mycollection.woff2?95a10d49514f5572d173ad1a4a13dccf") format("woff2"),
+url("./flaticon_mycollection.woff?95a10d49514f5572d173ad1a4a13dccf") format("woff"),
+url("./flaticon_mycollection.eot?95a10d49514f5572d173ad1a4a13dccf#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.ttf?95a10d49514f5572d173ad1a4a13dccf") format("truetype"),
+url("./flaticon_mycollection.svg?95a10d49514f5572d173ad1a4a13dccf#flaticon_mycollection") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-livingroom:before {
+    content: "\f101";
+}
+.flaticon-home:before {
+    content: "\f102";
+}
+.flaticon-security-helmet:before {
+    content: "\f103";
+}
+.flaticon-renovation:before {
+    content: "\f104";
+}
+.flaticon-compass:before {
+    content: "\f105";
+}
+
